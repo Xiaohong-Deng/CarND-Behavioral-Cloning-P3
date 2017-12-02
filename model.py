@@ -69,7 +69,7 @@ nb_batches_valid = len(valid_samples) // batch_size
 # NVidia network, 1-node output layer outputing the steering angle
 model = Sequential()
 model.add(Cropping2D(cropping=((60, 20), (0, 0)),
-                     input_shape=(160, 320, 3)))
+                     input_shape=(row, col, ch)))
 # normalizing the input data
 model.add(Lambda(lambda x: (x / 255.0) - 0.5))
 # default padding='valid' which crops the image if the filter doesnt fit in the last column and row
