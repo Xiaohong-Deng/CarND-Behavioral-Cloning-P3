@@ -77,7 +77,7 @@ My model consists of a convolutional neural network with the following structure
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains a dropout layer in order to reduce overfitting (model.py lines 77). drop rate 0.8 works pretty well.
+The model contains a dropout layer in order to reduce overfitting (model.py lines 77). Drop rate 0.8 worked pretty well.
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (data splitted in line 19, validated in line 94 to line 97). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
@@ -101,7 +101,7 @@ For details about how I created the training data, see the next section.
 
 #### 1. Solution Design Approach
 
-I just employed the NVidia network recommended in the instructions. It works very well. I just added a Dropout layer. And I used ELU as activation function because I was worried RELU would kill some of the neurons. And it's closer to zero centered output.
+I just employed the NVidia network recommended in the instructions. It worked very well. I just added a Dropout layer. And I used ELU as activation function because I was worried RELU would kill some of the neurons. And it's closer to zero centered output.
 
 ![alt text][image5]
 
