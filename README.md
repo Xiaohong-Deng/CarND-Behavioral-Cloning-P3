@@ -73,8 +73,7 @@ My model consists of a convolutional neural network with the following structure
 | Fully connected       | output 50                                     |
 | Fully connected       | output 10                                     |
 | Fully connected       | output 1                                      |        			
-|						|												|
-|						|												|
+
 
 #### 2. Attempts to reduce overfitting in the model
 
